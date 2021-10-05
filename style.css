@@ -13,10 +13,11 @@ div {
 }
 
 div:hover{
-    box-shadow: 10px 10px 2px rgb(42, 41, 41);
-    transform: translate(-10px, -6px) ;
+    box-shadow: 17px 18px 2px rgb(42, 41, 41);
+    transform: translate(-15px, -10px) ;
     transition: 0.6s;
 }
+
 div:active {
   box-shadow: 2px 2px 2px rgb(42, 41, 41);
   transform: translate(3px, 3px);
