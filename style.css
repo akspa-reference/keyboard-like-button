@@ -8,20 +8,20 @@ div {
   background-color: rgb(51, 88, 144);
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: 5px 5px 2px rgb(42, 41, 41);
+  box-shadow: 5px 5px 5px rgb(42, 41, 41);
   transition: 1s;
   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 div:hover{
-    box-shadow: 17px 18px 2px rgb(42, 41, 41);
-    transform: translate(-15px, -10px) ;
+    transform: translate(-10px, -10px) ;
+    box-shadow: 15px 15px 10px rgb(42, 41, 41);
     transition: 0.8s;
 }
 
 div:active {
-  box-shadow: 2px 2px 2px rgb(42, 41, 41);
   transform: translate(3px, 3px);
+  box-shadow: 2px 2px 2px rgb(42, 41, 41);
   transition: 0.4s;
 }
 
